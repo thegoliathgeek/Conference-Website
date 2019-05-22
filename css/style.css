@@ -1,0 +1,39 @@
+body {
+    background-color: #BCDBCF;
+}
+
+.headerfont {
+    font-size: 20px;
+    color: #630927;
+    text-shadow: -1px 0 #630927, 0 1px #630927, 1px 0 #630927, 0 -1px #630927;
+}
+
+.btn-primary {
+    font-size: 15px;
+    color: black;
+    border-color: #630927;
+    background-color: #BCDBCF;
+}
+
+.dropdown-item {
+    background-color: #EAE6D7;
+
+}
+
+.dropdown{
+    z-index: -1000;
+}
+.dropdown-menu {
+    background-color: #EAE6D7;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.menu {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+

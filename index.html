@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICCVSP-2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="container">
+
+    <header id="headerId">
+        <div class="row">
+            <div class="col-md-1">
+                <img src="assets/sitlogo.png" class="rounded-circle" height="190px" width="190" alt="Logo">
+            </div>
+            <div class="col-md-9 headerfont bounceInUp animated">
+                <h2 style="margin-left: 100px; margin-top: 25px">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h2>
+                <h3 style="margin-left: 200px; margin-top: 5px">An Autonomous Institute under VTU </h3>
+                <h3 style="margin-left: 140px; margin-top: 5px">Approved by AICTE B.H Road Tumakuru 572103</h3>
+            </div>
+            <div>
+                <img src="assets/swamiji.jpeg" class="rounded-circle" height="190px" width="190" alt="Logo">
+            </div>
+        </div>
+    </header>
+
+    <div class="row bounceIn animated" style="margin-top: 20px">
+
+        <div>
+            <button class="btn btn-primary" id="homebut" onclick="homeClick()">HOME</button>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                ABOUT US
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="chiefPatrons()">Chief Patrons</button>
+                <button class="dropdown-item" onclick="patrons()">Patrons</button>
+                <button class="dropdown-item" onclick="aboutTumakuru()">About Tumakuru</button>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                COMMITEE
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="advisoryCommitee()">Advisory Commitee</button>
+                <a class="dropdown-item" href="#">Technical Commitee</a>
+                <a class="dropdown-item" href="#">Student Outreach Commitee</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                PROGRAM
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Speakers</a>
+            </div>
+        </div>
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                AUTHORS
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Call for papers</a>
+                <a class="dropdown-item" href="#">Paper submission</a>
+                <a class="dropdown-item" href="#">Publication</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                GENERAL INFORMATION
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item">Key Dates</button>
+                <button class="dropdown-item">Accomodation</button>
+            </div>
+        </div>
+
+
+        <button style="margin-left: 5px" class="btn btn-primary">CONTACT US</button>
+        <button style="margin-left: 5px" class="btn btn-primary">REGISTER</button>
+
+    </div>
+    <div id="dynamicrender">
+        <script>document.getElementById('homebut').classList.add('active')</script>
+        <div>
+            <div class="row">
+                <img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;"
+                     src="https://static.wixstatic.com/media/f38359_c68b7e3966dd4f7284e8d98d845a76f5~mv2.png/v1/fill/w_462,h_194,al_c,q_80,usm_0.66_1.00_0.01/signal-7.webp"/>
+            </div> <!--Image Row-->
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h4 class="text-center" style="color: #630927; font-style: italic">International Conference on
+                        Communication, VLSI and Signal Processing on 10th - 11th</h4>
+                    <h4 class="text-center" style="color: #630927; font-style: italic">January 2020</h4>
+                    <h5 class="text-center" style="color: #630927">Submitting to IEEE Explorer for possible inclusion in
+                        IEEE Explorer</h5>
+                    <div class="text-center">
+                        <button type="button" style="font-size: 15px" class="btn btn-primary fadeIn animated">Key
+                            Dates
+                        </button>
+                    </div>
+                </div> <!--Text Column-->
+
+            </div>
+
+            <div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 style="color: #04267C">Welcome to ICCVSP-2020</h5>
+                    <p style="text-align: justify;margin-top: 10px ;color: #396251">The 2nd edition of the International
+                        Conference on Communication, VLSI and Signal Processing (ICCVSP-2020) will be held at
+                        Electronics & Communication Engineering Department Siddaganga Institute of Technology
+                        Tumakuru-572103, India, on Jan 10th and 11th, 2020. ICCVSP, shall provide a new forum for the
+                        world-class researchers to gather and share their research achievements, ideas and progress that
+                        is required to solve the future challenges that the VLSI, Communication and Signal Processing
+                        field face. In addition to a rich variety of regular technical sessions (Call for papers), the
+                        conference program will include plenary sessions featuring world-class speakers covering the
+                        most recent topics.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="js/dynamicrender.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
