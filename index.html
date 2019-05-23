@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICCVSP-2020</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -56,8 +57,8 @@
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <button class="dropdown-item" onclick="advisoryCommitee()">Advisory Commitee</button>
-                <a class="dropdown-item" href="#">Technical Commitee</a>
-                <a class="dropdown-item" href="#">Student Outreach Commitee</a>
+                <button class="dropdown-item" onclick="technicalCommitee()">Technical Commitee</button>
+                <button class="dropdown-item" onclick="studentOutreach()">Student Outreach Commitee</button>
             </div>
         </div>
 
@@ -69,7 +70,7 @@
                 PROGRAM
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Speakers</a>
+                <button class="dropdown-item" onclick="program()">Speakers</button>
             </div>
         </div>
 
@@ -80,9 +81,9 @@
                 AUTHORS
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Call for papers</a>
-                <a class="dropdown-item" href="#">Paper submission</a>
-                <a class="dropdown-item" href="#">Publication</a>
+                <button class="dropdown-item" onclick="callForPapers()">Call for papers</button>
+                <button class="dropdown-item" onclick="submitPaper()">Paper submission</button>
+                <button class="dropdown-item" onclick="publication()">Publication</button>
             </div>
         </div>
 
@@ -94,14 +95,14 @@
                 GENERAL INFORMATION
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <button class="dropdown-item">Key Dates</button>
-                <button class="dropdown-item">Accomodation</button>
+                <button class="dropdown-item" onclick="keyDates()">Key Dates</button>
+                <button class="dropdown-item" onclick="accomodation()">Accomodation</button>
             </div>
         </div>
 
 
-        <button style="margin-left: 5px" class="btn btn-primary">CONTACT US</button>
-        <button style="margin-left: 5px" class="btn btn-primary">REGISTER</button>
+        <button style="margin-left: 5px" class="btn btn-primary" onclick="contactUs()">CONTACT US</button>
+        <a href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
 
     </div>
     <div id="dynamicrender">
@@ -124,7 +125,7 @@
                     <h5 class="text-center" style="color: #630927">Submitting to IEEE Explorer for possible inclusion in
                         IEEE Explorer</h5>
                     <div class="text-center">
-                        <button type="button" style="font-size: 15px" class="btn btn-primary fadeIn animated">Key
+                        <button type="button" style="font-size: 15px" class="btn btn-primary fadeIn animated" onclick="keyDates()">Key
                             Dates
                         </button>
                     </div>
