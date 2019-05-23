@@ -380,7 +380,7 @@ function callForPapers() {
     
 <div class="row" style="margin-top: 20px">
 
-<div class="col-4">
+<div class="col-sm-4 col-md-4 col-lg-4">
 <h6 style="color: #630927">Track 1</h6>
 <h5 style="color: #630927">Communication</h5>
 
@@ -397,7 +397,7 @@ function callForPapers() {
 <!--COl 1-->
 
 
-<div class="col-4">
+<div class="col-sm-4 col-md-4 col-lg-4">
 <h6 style="color: #630927">Track 2</h6>
 <h5 style="color: #630927">VLSI</h5>
 <ul style="font-size: 15px;">
@@ -415,7 +415,7 @@ color: #04267C;
 </style>
 
 <!--Col 2-->
-<div class="col-4">
+<div class="col-sm-4 col-md-4 col-lg-4">
 <h6 style="color: #630927">Track 3</h6>
 <h5 style="color: #630927">Signal Proccesing</h5>
 <ul style="font-size: 15px">
