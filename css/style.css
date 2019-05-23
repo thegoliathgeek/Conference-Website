@@ -36,3 +36,12 @@ body {
     display: inline-block;
     width: 100%;
 }
+
+
+.hidden{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}

@@ -35,10 +35,10 @@
         </div>
 
 
-        <div class="dropdown" style="margin-left: 5px">
+        <div class="dropdown" style="margin-left: 5px; position: relative; z-index: -1000">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
                     data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" onclick="aboutUsHide()">
                 ABOUT US
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -52,7 +52,7 @@
         <div class="dropdown" style="margin-left: 5px">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
                     data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" onclick="committeeHide()">
                 COMMITEE
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -66,7 +66,7 @@
         <div class="dropdown" style="margin-left: 5px">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3"
                     data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" onclick="programHide()">
                 PROGRAM
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -77,7 +77,7 @@
         <div class="dropdown" style="margin-left: 5px">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton4"
                     data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" onclick="authorHide()">
                 AUTHORS
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -88,12 +88,12 @@
         </div>
 
 
-        <div class="dropdown" style="margin-left: 5px">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
+        <div class="dropdown" style="margin-left: 5px;position: relative; z-index: -1000">
+            <a style="position: relative; z-index: -1000" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
                     data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" onclick="generalHide()">
                 GENERAL INFORMATION
-            </button>
+            </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <button class="dropdown-item" onclick="keyDates()">Key Dates</button>
                 <button class="dropdown-item" onclick="accomodation()">Accomodation</button>
@@ -101,8 +101,8 @@
         </div>
 
 
-        <button style="margin-left: 5px" class="btn btn-primary" onclick="contactUs()">CONTACT US</button>
-        <a href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
+        <button id="contactus" style="margin-left: 5px" class="btn btn-primary" onclick="contactUs()">CONTACT US</button>
+        <a id="register" href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
 
     </div>
     <div id="dynamicrender">
@@ -155,6 +155,7 @@
 
     </div>
 </div>
+<script src="js/hide.js"></script>
 <script src="js/dynamicrender.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

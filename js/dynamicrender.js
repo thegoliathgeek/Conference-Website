@@ -1,7 +1,7 @@
 "use strict";
 
 function homeClick() {
-
+    allVisible();
     document.getElementById('headerId').innerHTML = `
      <div class="row">
             <div class="col-md-1">
@@ -56,6 +56,7 @@ function homeClick() {
 
 
 function chiefPatrons() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
     document.getElementById('headerId').innerHTML = `
     <div class="row" style="margin-top: 100px">
@@ -82,6 +83,7 @@ function chiefPatrons() {
 
 
 function patrons() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
     document.getElementById('headerId').innerHTML = `
     <div class="row" style="margin-top: 100px">
@@ -110,6 +112,7 @@ function patrons() {
 }
 
 function aboutTumakuru() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
     document.getElementById('headerId').innerHTML = `
     <div class="row" style="margin-top: 100px">
@@ -141,6 +144,7 @@ Tumkur is located at 13.34°N 77.1°E. It has an average elevation of 822 metres
 
 
 function advisoryCommitee() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -205,7 +209,7 @@ function advisoryCommitee() {
 
 
 function technicalCommitee() {
-
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -275,7 +279,7 @@ function technicalCommitee() {
 }
 
 function studentOutreach() {
-
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -326,7 +330,7 @@ function studentOutreach() {
 
 
 function program() {
-
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -352,7 +356,7 @@ function program() {
 
 
 function callForPapers() {
-
+    allVisible();
 
     document.getElementById('homebut').classList.remove('active');
 
@@ -433,7 +437,7 @@ color: #04267C;
 
 
 function submitPaper() {
-
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -468,6 +472,7 @@ function submitPaper() {
 
 
 function publication(){
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -494,6 +499,7 @@ function publication(){
 }
 
 function keyDates() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -532,6 +538,7 @@ font-size: 20px;
 
 
 function accomodation() {
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
@@ -563,7 +570,7 @@ font-size: 20px;
 }
 
 function contactUs() {
-
+    allVisible();
     document.getElementById('homebut').classList.remove('active');
 
     document.getElementById('headerId').innerHTML = `
