@@ -34,7 +34,7 @@ function homeClick() {
 <h4 class="text-center" style="color: #630927; font-style: italic">January 2020</h4>
 <h5 class="text-center" style="color: #630927">Submitting to  IEEE Explorer for possible inclusion in IEEE Explorer</h5>
 <div class="text-center">
-<button type="button" style="font-size: 15px" class="btn btn-primary fadeIn animated">Key Dates</button>
+<button style="font-size: 15px" class="btn btn-primary fadeIn animated" onclick="keyDates()">Key Dates</button>
 </div>
 </div> <!--Text Column-->
 
