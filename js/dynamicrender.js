@@ -454,7 +454,7 @@ function submitPaper() {
     <div class="row" style="margin-top: 50px; position: relative; z-index: -1000">
     <div class="col-md-12">
     <div class="text-center">
-    <h2 style="color: #630927">Click GO to submit your paper</h2>
+    <h2 style="color: #630927">Submission through easy chair</h2>
 </div>
 </div>
 </div>
