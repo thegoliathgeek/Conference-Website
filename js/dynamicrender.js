@@ -99,10 +99,10 @@ function patrons() {
     <div class="row" style="margin-top: 30px; position:relative; z-index: -1000">
     <div class="col-md-12">
     <div class="text-center">
-    <ul class="menu" style="color: #04267C;">
-    <li>Sri T. K. Nanjundappa, Secretary, SSES, Tumkur Dr. M. N. </li>
-    <li>Channabasappa, Director, SIT, Tumkur Dr.</li>
-    <li>Shivakumaraiah, CEO, SIT, Tumkur</li>
+    <ul class="menu" style="color: #04267C;text-align: justify">
+    <li>Sri T. K. Nanjundappa, Secretary, SSES, Tumkur</li>
+    <li> Dr. M. N. Channabasappa, Director, SIT, Tumkur</li>
+    <li>Dr.Shivakumaraiah, CEO, SIT, Tumkur</li>
     <li>Dr. K P. Shivananda, Principal, SIT, Tumkur</li>
 </ul>
     </div>
@@ -196,7 +196,7 @@ function advisoryCommitee() {
         <li>Dalarna University, Sweden</li>
         <li>ABB Ltd., Bangalore</li>
         <li>Nanyang Technological university</li>
-        <li>Chairman, IEEE Bangalore Section</li>
+        <li>Chairman, IEEE Bangalore Section(2018)</li>
         
         
 </ul>
@@ -454,14 +454,15 @@ function submitPaper() {
     <div class="row" style="margin-top: 50px; position: relative; z-index: -1000">
     <div class="col-md-12">
     <div class="text-center">
-    <h2 style="color: #630927">Submission through easy chair</h2>
+    <h2 style="color: #630927; z-index: -1">Submission through easy chair</h2>
 </div>
 </div>
 </div>
 <div class="row" style="margin-top: 30px">
 <div class="col-md-12">
 <div class="text-center">
-<a href="https://docs.google.com/forms/d/1R1Oh6L4ckbh_vJs2evM14UoKgMcmht9EGI7UJvd7EQo/edit" class="btn btn-outline-success">GO</a>
+<!--<a href="https://docs.google.com/forms/d/1R1Oh6L4ckbh_vJs2evM14UoKgMcmht9EGI7UJvd7EQo/edit" class="btn btn-outline-success">GO</a>-->
+<h3 style="color: #630927">To be updated</h3>
 </div>
 </div>
 </div>
@@ -524,8 +525,8 @@ font-size: 20px;
     <ul style="text-align: justify">
     <li>Submission Portal Opens: 1st September 2019</li>
     <li>Full Paper Submission Deadline: 15th October 2019</li>
-    <li>Acceptance/Rejection Notification: 15th November 2019
- Camera-Ready Paper due: 30th November 2019</li>
+    <li>Acceptance/Rejection Notification: 15th November 2019</li>
+<li>Camera-Ready Paper due: 30th November 2019</li>
  <li>Registration opens: 1st December 2019</li>
 </ul>
 </div>
