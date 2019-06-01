@@ -8,9 +8,9 @@ function homeClick() {
                 <img src="assets/sitlogo.png" class="rounded-circle" height="190px" width="190" alt="Logo">
             </div>
             <div class="col-md-9 headerfont bounceInUp animated">
-                <h2 style="margin-left: 100px; margin-top: 25px">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h2>
-                <h3 style="margin-left: 200px; margin-top: 5px">An Autonomous Institute under VTU </h3>
-                <h3 style="margin-left: 140px; margin-top: 5px">Approved by AICTE B.H Road Tumakuru 572103</h3>
+                <h2 style="margin-left: 100px; margin-top: 25px;text-shadow: 2px 2px black">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h2>
+                <h3 style="margin-left: 200px; margin-top: 5px;text-shadow: 1px 1px black">An Autonomous Institute under VTU </h3>
+                <h3 style="margin-left: 140px; margin-top: 5px;text-shadow: 1px 1px black">Approved by AICTE B.H Road Tumakuru 572103</h3>
             </div>
             <div>
                 <img src="assets/swamiji.jpeg" class="rounded-circle" height="190px" width="190" alt="Logo">
@@ -142,6 +142,9 @@ Tumkur is located at 13.34°N 77.1°E. It has an average elevation of 822 metres
     `;
 }
 
+function openMaps(){
+    window.open('https://maps.app.goo.gl/Pr3zTi16xqUwkC6C6');
+}
 
 function advisoryCommitee() {
     allVisible();
