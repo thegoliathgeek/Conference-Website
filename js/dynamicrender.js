@@ -47,7 +47,7 @@ function homeClick() {
 <div class="row">
 <div class="col-md-12">
 <h5 style="color: #04267C">Welcome to ICCVSP-2020</h5>
-<p style="text-align: justify;margin-top: 10px ;color: #396251">The 2nd edition of the International Conference on Communication, VLSI and Signal Processing (ICCVSP-2020) will be held at Electronics & Communication Engineering Department Siddaganga Institute of Technology Tumakuru-572103, India, on Jan 10th and 11th, 2020.  ICCVSP, shall provide a new forum for the world-class researchers to gather and share their research achievements, ideas and progress that is required to solve the future challenges that the VLSI, Communication and Signal Processing field face. In addition to a rich variety of regular technical sessions (Call for papers), the conference program will include plenary sessions featuring world-class speakers covering the most recent topics.</p>
+<p style="text-align: justify;margin-top: 10px ;color: #396251">The 2nd edition of the International Conference on Communication, VLSI and Signal Processing (ICCVSP-2020) will be held at Electronics & Communication Engineering Department Siddaganga Institute of Technology Tumakuru-572103, India, on Sep 4th and 5th, 2020.  ICCVSP, shall provide a new forum for the world-class researchers to gather and share their research achievements, ideas and progress that is required to solve the future challenges that the VLSI, Communication and Signal Processing field face. In addition to a rich variety of regular technical sessions (Call for papers), the conference program will include plenary sessions featuring world-class speakers covering the most recent topics.</p>
 </div>
 </div>
 </div>
