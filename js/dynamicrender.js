@@ -518,31 +518,54 @@ function studentOutreach() {
     <div class="row">
 
         <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-        <h3 style="color: #630927">Name</h3>
-        <ul>
-        <li>Indranil Sarkar</li>
-        <li>Deepak Dasalukunte</li>
-        <li>Bhanuprakash Venakatesh</li>
-        <li>Akhilesh</li>
-        <li>Vikas R Shivaprabhu</li>
-       
-        
-        
-</ul>
+       <table class="table">
+        <thead>
+        <tr>
+        <th style="width: 16.66%" scope="col">Name</th>
+        <th style="width: 16.66%" scope="col">Affliation</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>Indranil Sarkar</td>
+<td>Technology Specialist, Fish and Richardson, Boston, USA</td>
+</tr>
+
+<tr>
+<td>Deepak Dasalukunte</td>
+<td>Lantiq Communications, India Pvt. Ltd.</td>
+</tr>
+
+
+<tr>
+<td>Bhanuprakash Venakatesh</td>
+<td>Honeywell Technology Solutions, Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Akhilesh</td>
+<td>Arizona State University, Tempe</td>
+</tr>
+
+
+<tr>
+<td>Vikas R Shivaprabhu</td>
+<td>Senior Software Engineer, Blackmagic Design, Colorado Springs, Colorado</td>
+</tr>
+
+
+<tr>
+
+</tr>
+
+
+</tbody>
+</table>
+     
 </div>
 
-    <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-    <h3 style="color: #630927">Affliation</h3>
-        <ul>
-        <li>Technology Specialist, Fish and Richardson, Boston, USA</li>
-        <li>Lantiq Communications, India Pvt. Ltd.</li>
-        <li>Honeywell Technology Solutions, Bangalore</li>
-        <li>Arizona State University, Tempe</li>
-        <li>Senior Software Engineer, Blackmagic Design, Colorado Springs, Colorado</li>
-
-        
-</ul>
-</div>
 
 </div>
     `;
