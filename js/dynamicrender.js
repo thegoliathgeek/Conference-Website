@@ -30,8 +30,8 @@ function homeClick() {
 <div class="row">
 
 <div class="col-md-12">
-<h4 class="text-center"  style="color: #630927; font-style: italic">International Conference on Communication, VLSI and Signal Processing on 10th - 11th</h4>
-<h4 class="text-center" style="color: #630927; font-style: italic">January 2020</h4>
+<h4 class="text-center"  style="color: #630927; font-style: italic">International Conference on Communication, VLSI and Signal Processing on 4th - 5th</h4>
+<h4 class="text-center" style="color: #630927; font-style: italic">September 2020</h4>
 <h5 class="text-center" style="color: #630927">Submitting to  IEEE Explorer for possible inclusion in IEEE Explorer</h5>
 <div class="text-center">
 <button style="font-size: 15px" class="btn btn-primary fadeIn animated" onclick="keyDates()">Key Dates</button>
@@ -142,7 +142,7 @@ Tumkur is located at 13.34°N 77.1°E. It has an average elevation of 822 metres
     `;
 }
 
-function openMaps(){
+function openMaps() {
     window.open('https://maps.app.goo.gl/Pr3zTi16xqUwkC6C6');
 }
 
@@ -228,54 +228,222 @@ function technicalCommitee() {
     document.getElementById('dynamicrender').innerHTML = `
     <div class="row">
 
-        <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-        <h3 style="color: #630927">Name</h3>
-        <ul>
-        <li>Dr. K. Sreenivasa Rao</li>
-        <li>Dr. K. Srirama Murthy</li>
-        <li>Dr. Suryakanth  V Gangashetty</li>
-        <li>Dr. Dileep A. D.</li>
-        <li>Dr. Veena T.</li>
-        <li>Dr. Deepak K T</li>
-        <li>Dr. Narendra N. P.</li>
-        <li>Dr. Nayeemullah Khan</li>
-        <li>Dr. Guruprasad</li>
-        <li>Dr. Cyril Prasanna Raj</li>
-        <li>Dr. Anil Kumar Vuppala</li>
-        <li>Dr. Somashekhar Bhat</li>
-        <li>Dr. Neelam Sinha</li>
-        <li>Dr. P.G. Poonacha</li>
-        <li>Dr. Vaishali V. Patil</li>
-        <li>Manjunath</li>
-        
-        
-</ul>
-</div>
+        <div class="col-md-12" style="margin-top: 30px; position:relative; z-index: -1000">
+        <table class="table table-unbordered">
+        <thead>
+        <tr>
+        <th style="width: 16.66%" scope="col">Name</th>
+        <th style="width: 16.66%" scope="col">Affliation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dr. Rajashekhar S.</td>
+<td>IEEE Execom Member</td>
+</tr>
 
-    <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-    <h3 style="color: #630927">Affliation</h3>
-        <ul>
-        <li>IIT Kharagpur</li>
-        <li>IIT Hyderabad</li>
-        <li>IIIT Hyderabad</li>
-        <li>IIT Mandi</li>
-        <li>NIT Goa</li>
-        <li>IIT Dharwad</li>
-        <li>Aalto University, Espoo, Finland</li>
-        <li>VIT, Chennai</li>
-        <li>Audience, Bangalore</li>
-        <li>MS Engineering College, Bangalore</li>
-        <li>IIIT, Hyderabad</li>
-        <li>MIT, Manipal</li>
-        <li>IIIT, Bangalore</li>
-        <li>IIIT, Bangalore</li>
-        <li>IIIT, Pune</li>
-        <li>ISRO, Banglore</li>
-        
-        
-</ul>
-</div>
+<tr>
+<td>Dr. T. Srinivas.</td>
+<td> Indian Institute of Science, Bangalore</td>
+</tr>
 
+<tr>
+<td>Dr. K. Sreenivasa Rao. </td>
+<td>Indian Institute of Technology Kharagpur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Suryakanth V Gangashetty. </td>
+<td>Indian Institute of Information Technology Hyderabad</td>
+</tr>
+
+<tr>
+<td>Dr. K. Srirama Murthy. </td>
+<td>Indian Institute of Technology Hyderabad</td>
+</tr>
+
+<tr>
+<td>Dr. Narendra N. P. </td>
+<td>Alto University, Espoo, Finland</td>
+</tr>
+
+<tr>
+<td>Dr. Deepak K T . </td>
+<td>Indian Institute of Information Technology Dharwad</td>
+</tr>
+
+
+<tr>
+<td>Dr. Anil Kumar Vuppala.</td>
+<td> Indian Institute of Technology Hyderabad</td>
+</tr>
+
+
+<tr>
+<td>Dr. Dileep A. D. </td>
+<td>Indian Institute of Technology Mandi</td>
+</tr>
+
+
+<tr>
+<td>Dr. Neelam Sinha. </td>
+<td>Indian Institute of Technology Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Veena T. </td>
+<td>National Institute of Technology, Goa</td>
+</tr>
+
+
+<tr>
+<td>Dr. Nayeemullah Khan.</td>
+<td>Vellore Institute of Technology, Chennai</td>
+</tr>
+
+
+<tr>
+<td>Dr. Guruprasad. </td>
+<td>Audience, Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Manjunath.</td>
+<td>ISRO, Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Cyril Prasanna Raj. </td>
+<td>MS Engineering College, Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Somashekhar Bhat.</td>
+<td>MIT Manipal</td>
+</tr>
+
+
+<tr>
+<td>Dr. P. G. Poonacha.</td>
+<td>Indian Institute of Information Technology Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Vaishali V. Patil. </td>
+<td>Indian Institute of Information Technology Pune</td>
+</tr>
+
+
+<tr>
+<td>Dr. Shrikant S. Joshi.</td>
+<td>Vishwakarma Information Technology, Pune</td>
+</tr>
+
+
+<tr>
+<td>Dr. K. V. Suresh.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. R. Srikantaswamy.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. R. Kumaraswamy.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Veena Karjigi.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+<tr>
+<td>Dr. B. N. Shashikala.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+<tr>
+<td>Dr. Mallikarjun B.C.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. V. M. Aparanji.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Seema Hegde.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+
+<tr>
+<td>Dr. B. T. Venkatesh Murthy.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+
+<tr>
+<td>Dr. K. Vishwanath.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+
+<tr>
+<td>Dr. K. C. Narasimha Murthy.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+<tr>
+<td>Dr. M. N. Sujatha.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. T. N. Chandrika.</td>
+<td> Siddaganga Institute of Technology, Tumkur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Sadashivappa.</td>
+<td>R.V. College of Engineering, Bangalore</td>
+</tr>
+
+<tr>
+<td>Dr. Prasanna Kumar M. K.</td>
+<td>B M S College of Engineering, Bangalore</td>
+</tr>
+
+<tr>
+<td>Dr. Aravind B.N.</td>
+<td>Rajeev Institute of Technology, Hassan</td>
+</tr>
+
+
+
+</tbody>
+</table>
+</div>
 </div>
     `;
 
@@ -474,7 +642,7 @@ function submitPaper() {
 }
 
 
-function publication(){
+function publication() {
     allVisible();
     document.getElementById('homebut').classList.remove('active');
 
@@ -526,11 +694,11 @@ font-size: 20px;
     <div class="col-md-12">
     <div class="text-center">
     <ul style="text-align: justify">
-    <li>Submission Portal Opens: 1st September 2019</li>
-    <li>Full Paper Submission Deadline: 15th October 2019</li>
-    <li>Acceptance/Rejection Notification: 15th November 2019</li>
-<li>Camera-Ready Paper due: 30th November 2019</li>
- <li>Registration opens: 1st December 2019</li>
+    <li>Submission Portal Opens: 1st February 2020</li>
+    <li>Full Paper Submission Deadline: 15th March 2020</li>
+    <li>Acceptance/Rejection Notification: 15th June 2020</li>
+<li>Camera-Ready Paper due: 15th July 2020</li>
+ <li>Registration opens: 1st August 2020</li>
 </ul>
 </div>
 </div>
