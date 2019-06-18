@@ -517,7 +517,7 @@ function studentOutreach() {
     document.getElementById('dynamicrender').innerHTML = `
     <div class="row">
 
-        <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
+        <div class="col-md-12" style="margin-top: 30px; position:relative; z-index: -1000">
        <table class="table">
         <thead>
         <tr>
