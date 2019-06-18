@@ -163,48 +163,99 @@ function advisoryCommitee() {
     document.getElementById('dynamicrender').innerHTML = `
     <div class="row">
 
-        <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-        <h3 style="color: #630927">Name</h3>
-        <ul>
-        <li>Dr. Pallappa Venkataram</li>
-        <li>Dr. Jayanta Mukhopadhya</li>
-        <li>Dr. P. K. Bisawas</li>
-        <li>Dr. Nanditha Das Gupta</li>
-        <li>Dr. C. Chandrashekhar</li>
-        <li>Dr. S R M Prasanna</li>
-        <li>Dr. Rajesh Hegde</li>
-        <li>Dr. Roy P Pailey</li>
-        <li>Dr. Samudravijaya</li>
-        <li>Dr. Hasan Fleyeh</li>
-        <li>Dr. Deepaknath Tandur</li>
-        <li>Dr. Arokiaswami Alphones</li>
-        <li>Dr. Sudeendra Koushik</li>
-        
-        
-</ul>
+        <div class="col-md-12" style="margin-top: 30px; position:relative; z-index: -1000">
+      <table class="table">
+      <thead>
+        <tr>
+        <th style="width: 16.66%" scope="col">Name</th>
+        <th style="width: 16.66%" scope="col">Affliation</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>Dr. Pallappa Venkataram</td>
+<td>IISc, Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Jayanta Mukhopadhya</td>
+<td>IIT Kharagpur</td>
+</tr>
+
+
+<tr>
+<td>Dr. P. K. Bisawas</td>
+<td>IIT Kharagpur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Nanditha Das Gupta</td>
+<td>IIT Madras</td>
+</tr>
+
+
+<tr>
+<td>Dr. C. Chandrashekhar</td>
+<td>IIT Madras</td>
+</tr>
+
+
+<tr>
+<td>Dr. S R M Prasanna</td>
+<td>IIT Dharwad</td>
+</tr>
+
+
+
+<tr>
+<td>Dr. Rajesh Hegde</td>
+<td>IIT Kanpur</td>
+</tr>
+
+
+<tr>
+<td>Dr. Roy P Pailey</td>
+<td>IIT Guwahati</td>
+</tr>
+
+
+<tr>
+<td>Dr. Samudravijaya</td>
+<td>IIT Guwahati</td>
+</tr>
+
+
+<tr>
+<td>Dr. Hasan Fleyeh</td>
+<td>IIT Guwahati</td>
+</tr>
+
+
+<tr>
+<td>Dr. Deepaknath Tandur</td>
+<td>Dalarna University, Sweden</td>
+</tr>
+
+
+<tr>
+<td>Dr. Arokiaswami Alphones</td>
+<td>ABB Ltd., Bangalore</td>
+</tr>
+
+
+<tr>
+<td>Dr. Sudeendra Koushik</td>
+<td>Nanyang Technological university</td>
+
+</tr>
+</tbody>
+</table>
 </div>
 
-    <div class="col-5" style="margin-top: 30px; position:relative; z-index: -1000">
-    <h3 style="color: #630927">Affliation</h3>
-        <ul>
-        <li>IISc, Bangalore</li>
-        <li>IIT Kharagpur</li>
-        <li>IIT Kharagpur</li>
-        <li>IIT Madras</li>
-        <li>IIT Madras</li>
-        <li>IIT Dharwad</li>
-        <li>IIT Kanpur</li>
-        <li>IIT Guwahati</li>
-        <li>IIT Guwahati</li>
-        <li>Dalarna University, Sweden</li>
-        <li>ABB Ltd., Bangalore</li>
-        <li>Nanyang Technological university</li>
-        <li>Chairman, IEEE Bangalore Section(2018)</li>
-        
-        
-</ul>
-</div>
-
+   
 </div>
     `;
 
