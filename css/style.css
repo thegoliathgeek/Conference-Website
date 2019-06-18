@@ -49,3 +49,8 @@ body {
 .dropdown-menu{
     margin-top: 12px;
 }
+
+
+th{
+    width: 16.66%;
+}
