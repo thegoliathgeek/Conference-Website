@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCVSP-2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+<div class="container">
+
+    <header id="headerId">
+        <div class="row" style="margin-top: 100px">
+            <div class="col-12">
+                <div class="text-center">
+                    <h4 style="color: #630927;">Advisory Committee Member</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row bounceIn animated" style="margin-top: 20px">
+
+        <div>
+            <a  href="../index.html" class="btn btn-primary" id="homebut">HOME</a>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px; position: relative; z-index: -1000">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="aboutUsHide()">
+                ABOUT US
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../about-us/chief-patrons.html">Chief Patrons</a>
+                <a class="dropdown-item" href="../about-us/patrons.html">Patrons</a>
+                <a class="dropdown-item" href="../about-us/about-tumakuru.html">About Tumakuru</a>
+                <a class="dropdown-item" onclick="openMaps()">Navigate to Tumakuru</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="committeeHide()">
+                COMMITEE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="advisory.html">Advisory Commitee</a>
+                <a class="dropdown-item" href="technical.html">Technical Commitee</a>
+                <a class="dropdown-item" href="student-outreach.html">Student Outreach Commitee</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="programHide()">
+                PROGRAM
+            </a>
+            <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../program/speakers.html">Speakers</a>
+            </div>
+        </div>
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton4"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="authorHide()">
+                AUTHORS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="../authors/callforpapers.html" class="dropdown-item">Call for papers</a>
+                <a href="../authors/paper-submission.html" class="dropdown-item">Paper submission</a>
+                <a href="../authors/publication.html" class="dropdown-item" >Publication</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px;position: relative; z-index: -1000">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="generalHide()">
+                GENERAL INFORMATION
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../general-information/keydates.html">Key Dates</a>
+                <a class="dropdown-item" href="../general-information/accomodation.html">Accomodation</a>
+            </div>
+        </div>
+
+
+        <a id="contactus" href="../contact.html" style="margin-left: 5px" class="btn btn-primary">CONTACT US</a>
+        <a id="register" href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
+
+    </div>
+    <div id="dynamicrender">
+
+
+        <!--        -->
+
+        <div class="row">
+
+            <div class="col-md-12" style="margin-top: 30px; position:relative; z-index: -1000">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th style="width: 16.66%" scope="col">Name</th>
+                        <th style="width: 16.66%" scope="col">Affliation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>Dr. Pallappa Venkataram</td>
+                        <td>IISc, Bangalore</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Jayanta Mukhopadhya</td>
+                        <td>IIT Kharagpur</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. P. K. Bisawas</td>
+                        <td>IIT Kharagpur</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Nanditha Das Gupta</td>
+                        <td>IIT Madras</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. C. Chandrashekhar</td>
+                        <td>IIT Madras</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. S R M Prasanna</td>
+                        <td>IIT Dharwad</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>Dr. Rajesh Hegde</td>
+                        <td>IIT Kanpur</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Roy P Pailey</td>
+                        <td>IIT Guwahati</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Samudravijaya</td>
+                        <td>IIT Guwahati</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Hasan Fleyeh</td>
+                        <td>IIT Guwahati</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Deepaknath Tandur</td>
+                        <td>Dalarna University, Sweden</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Arokiaswami Alphones</td>
+                        <td>ABB Ltd., Bangalore</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Dr. Sudeendra Koushik</td>
+                        <td>Nanyang Technological university</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+
+        <!--        -->
+
+    </div>
+    <p id="phoneBrow" style="visibility: hidden">Desktop site recommended</p>
+</div>
+
+<script>
+    document.addEventListener('click',function () {
+        allVisible();
+    },true);
+</script>
+<script src="../js/hide.js"></script>
+<script src="../js/dynamicrender.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
