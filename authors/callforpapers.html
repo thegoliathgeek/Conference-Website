@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCVSP-2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+<div class="container">
+
+    <header id="headerId">
+        <div class="row" style="margin-top: 100px">
+            <div class="col-12">
+                <div class="text-center">
+                    <h4 style="color: #630927;">Call for papers</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row bounceIn animated" style="margin-top: 20px">
+
+        <div>
+            <a  href="../index.html" class="btn btn-primary" id="homebut">HOME</a>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px; position: relative; z-index: -1000">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="aboutUsHide()">
+                ABOUT US
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../about-us/chief-patrons.html">Chief Patrons</a>
+                <a class="dropdown-item" href="../about-us/patrons.html">Patrons</a>
+                <a class="dropdown-item" href="../about-us/about-tumakuru.html">About Tumakuru</a>
+                <a class="dropdown-item" onclick="openMaps()">Navigate to Tumakuru</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="committeeHide()">
+                COMMITEE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../commitee/advisory.html">Advisory Commitee</a>
+                <a class="dropdown-item" href="../commitee/technical.html">Technical Commitee</a>
+                <a class="dropdown-item" href="../commitee/student-outreach.html">Student Outreach Commitee</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="programHide()">
+                PROGRAM
+            </a>
+            <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../program/speakers.html">Speakers</a>
+            </div>
+        </div>
+
+        <div class="dropdown" style="margin-left: 5px">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton4"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="authorHide()">
+                AUTHORS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="callforpapers.html" class="dropdown-item">Call for papers</a>
+                <a href="paper-submission.html" class="dropdown-item">Paper submission</a>
+                <a href="publication.html" class="dropdown-item" >Publication</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px;position: relative; z-index: -1000">
+            <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false" onclick="generalHide()">
+                GENERAL INFORMATION
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../general-information/keydates.html">Key Dates</a>
+                <a class="dropdown-item" href="../general-information/accomodation.html">Accomodation</a>
+            </div>
+        </div>
+
+
+        <a id="contactus" style="margin-left: 5px" class="btn btn-primary" href="../contact.html">CONTACT US</a>
+        <a id="register" href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
+
+    </div>
+    <div id="dynamicrender">
+<!--        -->
+        <div class="row" style="margin-top: 20px; position: relative; z-index: -1000">
+            <p style="color: #04267C; text-align: justify;z-index: -1000;"><b>Prospective authors are invited to submit technical papers of
+                their previously unpublished work. Detailed information about the electronic paper submission process can be
+                found in the FOR PARTICIPANTS or PAPER SUBMISSION section. All presented papers will be submitted to the IEEE
+                for possible inclusion in IEEEXplore. Topics of interest include, but are not limited to</b></p>
+        </div>
+
+        <div class="row" style="margin-top: 20px">
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h6 style="color: #630927">Track 1</h6>
+                <h5 style="color: #630927">Communication</h5>
+
+                <ul style="font-size: 15px;">
+                    <li>Information Theory and Coding</li>
+                    <li>Wireless and Broadband Communication</li>
+                    <li>RF and Microwave Communication</li>
+                    <li>Satellite Communication</li>
+                    <li>Antenna Theory and Propagation</li>
+                    <li>Cognitive Radio</li>
+                    <li>Cooperative Communication</li>
+                </ul>
+            </div>
+            <!--COl 1-->
+
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h6 style="color: #630927">Track 2</h6>
+                <h5 style="color: #630927">VLSI</h5>
+                <ul style="font-size: 15px;">
+                    <li>Analog design and mixed signal IC Design</li>
+                    <li>Prototyping, Validation, Verification, Modeling and Simulation.</li>
+                    <li>System-on-Chip Design</li>
+                    <li>Deep Submicron Design and Modeling Issues, New Devices and MEMS</li>
+                    <li>CAD and Tools, Testability and Design for Test</li>
+                </ul>
+            </div>
+            <style>
+                li{
+                    color: #04267C;
+                }
+            </style>
+
+            <!--Col 2-->
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h6 style="color: #630927">Track 3</h6>
+                <h5 style="color: #630927">Signal Proccesing</h5>
+                <ul style="font-size: 15px">
+                    <li>Image and Video Processing</li>
+                    <li>Speech and Audio Processing</li>
+                    <li>Computer Vision</li>
+                    <li>Biomedical Signal Processing</li>
+                    <li>Compressive Sensing</li>
+                    <li>Design and Implementation of Signal Processing Systems</li>
+                </ul>
+            </div>
+        </div>
+
+<!--        -->
+
+    </div>
+    <p id="phoneBrow" style="visibility: hidden">Desktop site recommended</p>
+</div>
+
+<script>
+    document.addEventListener('click',function () {
+        allVisible();
+    },true);
+</script>
+<script src="../js/hide.js"></script>
+<script src="../js/dynamicrender.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
