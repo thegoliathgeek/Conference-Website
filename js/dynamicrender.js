@@ -681,39 +681,6 @@ color: #04267C;
 }
 
 
-function submitPaper() {
-    allVisible();
-    document.getElementById('homebut').classList.remove('active');
-
-    document.getElementById('headerId').innerHTML = `
-     <div class="row" style="margin-top: 100px">
-    <div class="col-12">
-    <div class="text-center">
-    <h4 style="color: #630927;">Paper Submission</h4>
-</div>
-</div>
-</div>
-    `;
-
-    document.getElementById('dynamicrender').innerHTML = `
-    <div class="row" style="margin-top: 50px; position: relative; z-index: -1000">
-    <div class="col-md-12">
-    <div class="text-center">
-    <h2 style="color: #630927; z-index: -1">Submission through easy chair</h2>
-</div>
-</div>
-</div>
-<div class="row" style="margin-top: 30px">
-<div class="col-md-12">
-<div class="text-center">
-<!--<a href="https://docs.google.com/forms/d/1R1Oh6L4ckbh_vJs2evM14UoKgMcmht9EGI7UJvd7EQo/edit" class="btn btn-outline-success">GO</a>-->
-<h3 style="color: #630927">To be updated</h3>
-</div>
-</div>
-</div>
-    `;
-
-}
 
 
 function publication() {

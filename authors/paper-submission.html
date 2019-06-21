@@ -2,9 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCVSP-2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
+<div class="container">
 
+    <header id="headerId">
+        <div class="row" style="margin-top: 100px">
+            <div class="col-12">
+                <div class="text-center">
+                    <h4 style="color: #630927;">Paper Submission</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row bounceIn animated" style="margin-top: 20px">
+
+        <div>
+            <button class="btn btn-primary" id="homebut" onclick="homeClick()">HOME</button>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px; position: relative; z-index: -1000">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="aboutUsHide()">
+                ABOUT US
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="chiefPatrons()">Chief Patrons</button>
+                <button class="dropdown-item" onclick="patrons()">Patrons</button>
+                <button class="dropdown-item" onclick="aboutTumakuru()">About Tumakuru</button>
+                <button class="dropdown-item" onclick="openMaps()">Navigate to Tumakuru</button>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="committeeHide()">
+                COMMITEE
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="advisoryCommitee()">Advisory Commitee</button>
+                <button class="dropdown-item" onclick="technicalCommitee()">Technical Commitee</button>
+                <button class="dropdown-item" onclick="studentOutreach()">Student Outreach Commitee</button>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="programHide()">
+                PROGRAM
+            </button>
+            <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="program()">Speakers</button>
+            </div>
+        </div>
+
+        <div class="dropdown" style="margin-left: 5px">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="authorHide()">
+                AUTHORS
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="callForPapers()">Call for papers</button>
+                <button class="dropdown-item" onclick="submitPaper()">Paper submission</button>
+                <a href="authors/publication.html" class="dropdown-item" >Publication</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown" style="margin-left: 5px;position: relative; z-index: -1000">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton5"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="generalHide()">
+                GENERAL INFORMATION
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" onclick="keyDates()">Key Dates</button>
+                <button class="dropdown-item" onclick="accomodation()">Accomodation</button>
+            </div>
+        </div>
+
+
+        <button id="contactus" style="margin-left: 5px" class="btn btn-primary" onclick="contactUs()">CONTACT US</button>
+        <a id="register" href="https://docs.google.com/forms/d/1_g2F4dSO-a7Qx8BGyY8o6e0VJPrls5H00DFuWxJ5KwY/closedform" style="margin-left: 5px" class="btn btn-primary" >REGISTER</a>
+
+    </div>
+    <div id="dynamicrender">
+        <script>document.getElementById('homebut').classList.add('active')</script>
+        <div>
+            <div class="row">
+
+            </div> <!--Image Row-->
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="row" style="margin-top: 50px; position: relative; z-index: -1000">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h2 style="color: #630927; z-index: -1">Submission through easy chair</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <!--<a href="https://docs.google.com/forms/d/1R1Oh6L4ckbh_vJs2evM14UoKgMcmht9EGI7UJvd7EQo/edit" class="btn btn-outline-success">GO</a>-->
+                                <h3 style="color: #630927">To be updated</h3>
+                            </div>
+                        </div>
+                    </div>
+
+    </div>
+    <p id="phoneBrow" style="visibility: hidden">Desktop site recommended</p>
+</div>
+
+<script>
+    document.addEventListener('click',function () {
+        allVisible();
+    },true);
+</script>
+<script src="../js/hide.js"></script>
+<script src="../js/dynamicrender.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
