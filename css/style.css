@@ -17,6 +17,7 @@ body {
 
 .dropdown-item {
     background-color: #EAE6D7;
+    z-index: 1000;
 
 }
 
